@@ -149,6 +149,14 @@ img[class^=icon] {
   margin-right: auto;
 }
 
+
+@media (max-width: 500px) {
+    .center {
+    
+		width: 100%;
+    }
+  }
+
 h1 {
 	 font-family: 'Mountains of Christmas';
   font-style: bold;
@@ -175,6 +183,21 @@ h1 {
 }
 
 
+#spacer0 {
+	height:50px;
+}
+
+@media (max-width:500px){
+	.spacer0 {
+		display: none;
+	}
+}
+
+@media (max-width:500px){
+	.spacer2x {
+		display: none;
+	}
+}
 
 .spacer {
 	  height:50px;
