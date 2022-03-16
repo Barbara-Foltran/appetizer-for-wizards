@@ -366,7 +366,7 @@ font-family: 'Love Ya Like A Sister', cursive;
 
 .colonnasinistra {
 	float: left; 
-	text-align: justify; 
+	
 	width: 40%;
 	margin-left: 80px;
 	font-family: 'Love Ya Like A Sister', cursive;
@@ -382,7 +382,7 @@ font-family: 'Love Ya Like A Sister', cursive;
 
 .colonnadestra {
 	float: right; 
-	text-align: justify; 
+
 	width: 40%;
 	margin-right: 80px;
 	font-family: 'Love Ya Like A Sister', cursive;
@@ -467,7 +467,7 @@ list-style: none;
 
 .footertext {
 	margin-right: 20px;
-	padding-top: 40px;;
+	padding-top: 40px;
 	text-align: right;
 	font-family: 'Love Ya Like A Sister', cursive;
 	color: #7DCCEF;
@@ -480,6 +480,5 @@ list-style: none;
 .footersocial {
 	text-align: end;
 	margin-right: 20px;
-	
-	
+	}
 }
