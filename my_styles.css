@@ -89,6 +89,21 @@ list-style: none;
     }
   }
 
+@media (max-width: 500px) {
+    #logomenu {
+    
+		height: auto;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+		position: center;
+		
+    }
+  }
+
+
+
 .social {
 	width: 38px;
 
@@ -306,6 +321,47 @@ font-family: 'Love Ya Like A Sister', cursive;
 }
 
 
+@media screen and (max-width:500px){
+	.p2 {
+		
+		width:100%;
+		padding: 0px;
+		display:table-row;
+		text-align: center;
+		font-size: 27px;
+	}
+	
+}
+
+@media screen and (max-width:500px){
+	.p3 {
+		
+		display:flex;
+		font-size: 27px;
+	}
+	
+}
+
+@media screen and (max-width:500px){
+	.p1 {
+		
+	display:flex;
+		font-size: 27px;
+		
+	}
+	
+}
+
+@media screen and (max-width:500px){
+	#welcome {
+		
+	text-align: center;
+		font-size: 50px;
+		
+	}
+	
+}
+
 
 
 .colonnasinistra {
@@ -354,6 +410,16 @@ width: 95%;
     }
   }
 
+@media (max-width: 500px) {
+    .colonnasinistra  {
+width: 90%;
+	
+
+		
+    }
+  }
+
+
 
 @media (max-width: 1000px) {
     .colonnadestra  {
@@ -367,9 +433,15 @@ width: 95%;
   }
 
 
+@media (max-width: 500px) {
+    .colonnadestra  {
+width: 90%;
+	
+		margin-top: 50px;
+		
+  }
 
-
-
+	
 
 /*  FOOTER */
 
