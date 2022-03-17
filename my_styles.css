@@ -96,7 +96,7 @@ list-style: none;
 	display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 350px;
+  width: 320px;
 		position: center;
 		
     }
@@ -150,7 +150,7 @@ img[class^=icon] {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 1100px) {
     .center {
     
 		width: 100%;
@@ -193,9 +193,15 @@ h1 {
 	}
 }
 
-@media (max-width:900px){
+@media (max-width:1100px){
 	.spacer2x {
 		display: none;
+	}
+}
+
+@media (min-width:1800px){
+	.spacer, .spacer2x {
+		height: 250px;
 	}
 }
 
@@ -283,6 +289,39 @@ font-family: 'Love Ya Like A Sister', cursive;
 	margin: 20% 20%;
 	margin-bottom: 0px;
 }
+
+
+@media (max-width:1100px) {
+	.sideimageright{
+		margin-top: 20px;
+	}
+}
+
+@media (min-width:1400px) {
+	.sideimageright{
+		margin-top: 0px;
+	}
+}
+
+@media (min-width:1800px) {
+	.p1, .p2, .p3, .h1, .h2, .footertext {
+font-size: 60px;
+	}
+}
+
+@media (min-width:1800px) {
+	#potions, #welcome, #magicians, #about, #roadmap {
+font-size: 90px;
+	}
+}
+
+
+@media (min-width:1800px) {
+	.social, .social2 {
+width: 70px;
+	}
+}
+
 
 
 .sideimageright2 {
@@ -466,6 +505,27 @@ width: 90%;
 
 }
 
+
+
+
+@media (min-width:1800px) {
+	.colonnasinistra, .colonnadestra {
+font-size: 70px;
+		width: 40%;
+	}
+}
+
+
+@media (min-width:1800px) {
+	.menu {
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+		font-weight: bold;
+	}
+}
+
+
 /*  FOOTER */
 
 
@@ -504,4 +564,11 @@ list-style: none;
 	text-align: end;
 	margin-right: 20px;
 	}
+
+@media (min-width:1800px) {
+	.footerlogo {
+width: 80px;
+		margin-bottom: 20px;
+	}
+}
 
