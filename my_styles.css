@@ -39,7 +39,7 @@ a {
 
 @media (min-width:1850px){
 	.menu, a {
-		font-size: 40px;
+		font-size: 35px; /*!!!!prima 40*/
 		 vertical-align: middle;
 	}
 }
@@ -87,7 +87,7 @@ list-style: none;
   }
 
 
-@media (max-width: 1400px) {
+@media (max-width: 13800px) {
     #logomenu {
     
 		height: auto;
@@ -115,7 +115,7 @@ list-style: none;
 
 
 .social {
-	width: 38px;
+	width: 35px; /*prima 38*/
 
 }
 
