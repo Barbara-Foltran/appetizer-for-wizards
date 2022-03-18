@@ -486,7 +486,7 @@ width: 95%;
 @media (max-width: 500px) {
     .colonnasinistra  {
 width: 90%;
-	
+	font-size:22px;
 
 		
     }
@@ -509,7 +509,7 @@ width: 95%;
 @media (max-width: 500px) {
     .colonnadestra  {
 width: 90%;
-	
+	font-size:22px;
 		margin-top: 50px;
 		
   }
