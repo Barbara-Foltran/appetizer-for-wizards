@@ -30,7 +30,7 @@ body {
 a { 
   font-family: 'Mountains of Christmas';
   font-weight: bold;
-  font-size: 26px;
+  font-size: 24px; /*prima 26*/
   color: #7DCCEF;
   text-decoration: none;
 	display: inline-block;
@@ -39,7 +39,7 @@ a {
 
 @media (min-width:1850px){
 	.menu, a {
-		font-size: 35px; /*!!!!prima 40*/
+		font-size: 40px; 
 		 vertical-align: middle;
 	}
 }
@@ -87,7 +87,7 @@ list-style: none;
   }
 
 
-@media (max-width: 13800px) {
+@media (max-width: 1380px) {
     #logomenu {
     
 		height: auto;
