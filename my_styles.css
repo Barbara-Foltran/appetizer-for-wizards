@@ -79,8 +79,8 @@ list-style: none;
   color:#00527F;
 }
 
-
-@media (max-width: 1400px) {
+/*prima era 1400*/
+@media (max-width: 1380px) {
     .menu {
       display:none;
     }
@@ -105,7 +105,8 @@ list-style: none;
 	display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 320px;
+ /*  width: 320px; */
+		width: 90%;
 		position: center;
 		
     }
@@ -140,8 +141,8 @@ img[class^=icon] {
   margin:0 1em;
 }
 
-
-@media (min-width: 1400px) {
+/*prima era 1400*/
+@media (min-width: 1380px) {
     .icons {
     
 		display: none;
@@ -158,11 +159,11 @@ img[class^=icon] {
   margin-right: auto;
 }
 
-
-@media (max-width: 1400px) {
+/*prima era 1400 e 100%*/
+@media (max-width: 1380px) {
     .center {
     
-		width: 100%;
+		width: 90%;
     }
   }
 
@@ -391,7 +392,8 @@ width: 70px;
 	
 }
 
-
+/*!!!!!!!!
+testo per smartphone prima 27 ora 20 */ 
 @media screen and (max-width:500px){
 	.p2 {
 		
@@ -399,7 +401,7 @@ width: 70px;
 		padding: 0px;
 		display:table-row;
 		text-align: center;
-		font-size: 27px;
+		font-size: 20px;
 	}
 	
 }
