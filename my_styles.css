@@ -80,21 +80,35 @@ list-style: none;
 }
 
 /*prima era 1400*/
-@media (max-width: 1400px) {
+@media (max-width: 1380px) {
     .menu {
       display:none;
     }
   }
 
 
-@media (max-width: 1400px) {
+@media (max-width: 1380px) {
     #logomenu {
     
 		height: auto;
 	display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 500px;
+  width: 400px;
+    }
+  }
+
+@media (max-width: 1380px) {
+    #logomenu {
+    
+		height: auto;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+ /*  width: 320px; */
+		width: 50%;
+		position: center;
+		
     }
   }
 
@@ -142,12 +156,23 @@ img[class^=icon] {
 }
 
 /*prima era 1400*/
-@media (min-width: 1380px) {
+@media (min-width: 1381px) {
     .icons {
     
 		display: none;
     }
   }
+
+@media (max-width: 1380px) {
+    .social2 {
+      align-items: center;
+		  justify-content: space-between;
+		width: 2em;
+		
+    }
+  }
+
+
 
 /* DA QUI IN POI C'è IL TESTO */
 
