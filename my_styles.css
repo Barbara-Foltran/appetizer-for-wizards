@@ -80,14 +80,14 @@ list-style: none;
 }
 
 /*prima era 1400*/
-@media (max-width: 1380px) {
+@media (max-width: 1400px) {
     .menu {
       display:none;
     }
   }
 
 
-@media (max-width: 1380px) {
+@media (max-width: 1400px) {
     #logomenu {
     
 		height: auto;
